@@ -1,0 +1,73 @@
+@media (max-width: 700px) {
+
+	body {
+		background-color: #fff;
+	}
+
+	main {
+		min-height: unset;
+	}
+
+	.parte-1, .parte-2 {
+		grid-template-columns: 100vw;
+	}
+
+	.container {
+		border-radius: unset;
+		height: 100vh;
+	}
+
+	.conteudo {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.conteudo-2 {
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+		min-height: 80vh;
+	}
+
+	.botao-subscribe {
+		margin-top: 25px;
+	}
+
+	.botao-dismiss, .botao-show {
+		width: 285px;
+		position: fixed;
+		bottom: 55px;
+		padding: 15px 12px;
+	}
+
+	.conteudo-d-img {
+		background-image: url(img/illustration-sign-up-mobile.svg);
+		background-size: cover;
+		background-position: center bottom;
+		width: 100vw;
+		height: 300px;
+	}
+
+	.conteudo-e {
+		padding: 30px;
+	}
+	
+	input, .botao-subscribe {
+		width: 100%;
+    	box-sizing: border-box;
+	}
+
+	.conteudo-e h2 {
+		font-size: 0.8em;
+		margin-top: 30px;
+	}
+
+	.conteudo-e p, .conteudo-e li, .botao-subscribe, .parte-2 p {
+		font-size: 1em;
+		font-weight: 100;
+	}
+
+	.parte-2 h1 {
+		margin: 35px 0px;
+	}
+}

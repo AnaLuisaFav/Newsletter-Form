@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+	transition: all 200ms ease-out;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: hsl(235, 18%, 26%);
+	margin: 0px;
+	padding: 0px;
+}
+
+main {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+.conteudo {
+	display: contents;
+}
+
+.parte-1 {
+	display: grid;
+	grid-template-columns: 365px 315px;
+	gap: 20px;
+}
+
+.conteudo-d-img {
+	background-image: url(img/illustration-sign-up-desktop.svg);
+	background-size: contain;
+	height: 100%;
+	width: 300px;
+	background-position: 0px 18px;
+	background-repeat: no-repeat;
+}
+
+.conteudo-e {
+	color: hsl(234, 29%, 20%);
+	padding: 65px 30px;;
+	font-weight: 600;
+}
+
+.conteudo-e h1, .parte-2 h1 {
+	font-size: 3em;
+	margin: 0px;
+}
+
+.conteudo-e p, .conteudo-e li, .botao-subscribe, .parte-2 p  {
+	font-size: 0.8em;
+	color: hsl(235, 18%, 26%);
+}
+
+.conteudo-e h2 {
+	font-size: 0.6em;
+}
+
+ul {
+	padding: 0px;
+}
+
+li {
+	margin: 0;
+	padding: 8px 0 8px 25px;
+	list-style: none;
+	background-image: url("img/icon-success.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 15px;
+}
+
+input {
+	width: 290px;
+	border-radius: 5px;
+	padding: 15px 0px 15px 10px;
+	border: 1px solid hsl(0deg 0% 78.89%);
+}
+
+.erro {
+	color: red;
+	font-size: 0.6em;
+	margin-top: 2px;
+}
+
+input:hover {
+	border: 1px solid #000;
+	cursor: pointer;
+}
+
+.botao-subscribe, .botao-dismiss, .botao-show {
+	background-color: hsl(234, 29%, 20%);
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+	padding: 15px 30px 15px 30px;
+}
+
+.botao-subscribe {
+	margin-top: 15px;
+}
+
+.botao-subscribe:hover, .botao-dismiss:hover, .botao-show:hover {
+	cursor: pointer;
+	background: linear-gradient(90deg, rgba(255,83,119,1) 0%, rgba(255,98,83,1) 35%, rgba(255,143,73,1) 100%);;
+}
+
+.parte-2 {
+	width: 300px;
+	padding: 30px;
+	color: hsl(234, 29%, 20%);
+	display: none;
+}
+
+.parte-2 h1 {
+	line-height: 45px;
+	margin: 20px 0px;
+}
+
+.botao-dismiss, .botao-show {
+	margin-top: 30px;
+	padding: 12px;
+	font-size: 0.8em;
+}
+
+.botao-show {
+	display: none;
+}
+
+footer {
+	color: #fff;
+	font-size: 0.6em;
+	position: fixed;
+	padding: 5px 0px;
+	bottom: 0px;
+	width: 100%;
+	text-align: center; 
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: hsl(4, 100%, 67%);
+}
+
+/* --- mobile --- */
+
